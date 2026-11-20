@@ -487,7 +487,11 @@
   }
 
   @media (min-width:768px){
-    .priority-grid{grid-template-columns:repeat(3, 1fr);}
+    .priority-grid{grid-template-columns:repeat(2, 1fr);}
+  }
+
+  @media (min-width:1100px){
+    .priority-grid{grid-template-columns:repeat(4, 1fr);}
   }
 
   .priority-card{
@@ -553,7 +557,7 @@
       </div>
       <div class="tagline">"Confección de familia para que tú vendas. Lo que ves es lo que te llega."</div>
     </div>
-    <div class="b2b-note"><strong>A quién le hablamos:</strong> estos perfiles son mujeres que compran para revender y tiendas que reponen su surtido. La consumidora final no es un perfil comprador: aparece en el contenido como "la clienta de la semana", la mujer a la que cada revendedora le vende.</div>
+    <div class="b2b-note"><strong>A quién le hablamos:</strong> estos perfiles son mujeres que compran para revender, tiendas que reponen su surtido y empresas que compran por volumen (cadenas, grandes superficies y distribuidoras). La consumidora final no es un perfil comprador: aparece en el contenido como "la clienta de la semana", la mujer a la que cada revendedora le vende.</div>
     <div class="lineas-row">
       <span class="linea-pill">Athleisure y deportivo</span>
       <span class="linea-pill">Lino y tela burda</span>
@@ -565,10 +569,10 @@
 
 <div class="stats-bar">
   <div class="stats-inner">
-    <div class="stat"><span class="stat-num">6</span><span class="stat-label">Perfiles de compradora</span></div>
-    <div class="stat"><span class="stat-num">30</span><span class="stat-label">Dolores mapeados</span></div>
-    <div class="stat"><span class="stat-num">4</span><span class="stat-label">Segmentos</span></div>
-    <div class="stat"><span class="stat-num">3</span><span class="stat-label">Perfiles prioritarios</span></div>
+    <div class="stat"><span class="stat-num">7</span><span class="stat-label">Perfiles de compradora</span></div>
+    <div class="stat"><span class="stat-num">35</span><span class="stat-label">Dolores mapeados</span></div>
+    <div class="stat"><span class="stat-num">5</span><span class="stat-label">Segmentos</span></div>
+    <div class="stat"><span class="stat-num">4</span><span class="stat-label">Perfiles prioritarios</span></div>
   </div>
 </div>
 
@@ -578,6 +582,7 @@
   <button class="filter-btn" data-filter="yavende">La que ya vende</button>
   <button class="filter-btn" data-filter="tienda">La tienda que repone</button>
   <button class="filter-btn" data-filter="prenda">La que llegó por la prenda</button>
+  <button class="filter-btn" data-filter="empresa">Empresas y cadenas</button>
 </div>
 <div class="hint"><span class="ico">↻</span> Toca cada tarjeta para girarla y ver sus 5 dolores</div>
 
@@ -752,7 +757,7 @@
           </div>
           <span class="segment-badge">La que llegó por la prenda</span>
           <div class="card-meta">Compradora que llegó por la vitrina · 18 a 40 años · Todo el país</div>
-          <p class="card-desc">Vio un conjunto en un reel y preguntó si le venden uno solo. Compara con Shein y Temu y quiere pagar lo justo por algo que se vea bien. Si arma el paquete de 6 con amigas o familia, cada una paga menos; algunas descubren ahí que también pueden revender.</p>
+          <p class="card-desc">Vio un conjunto en un reel y preguntó si le venden uno solo. Compara con las tiendas de moda económica en línea y quiere pagar lo justo por algo que se vea bien. Si arma el paquete de 6 con amigas o familia, cada una paga menos; algunas descubren ahí que también pueden revender.</p>
           <div class="card-footer">
             <div class="dolores-count"><span class="dot-row"><span></span><span></span><span></span><span></span><span></span></span>5 dolores</div>
             <button class="flip-btn" type="button">Ver dolores <span class="arrow">↻</span></button>
@@ -773,11 +778,43 @@
       </div>
     </article>
 
+    <!-- 07 -->
+    <article class="card-flip priority" data-segment="empresa">
+      <div class="flip-inner">
+        <div class="face face-front">
+          <span class="priority-flag">Prioritario</span>
+          <div class="card-top">
+            <span class="card-num">07</span>
+            <div class="card-title">La Compradora de Cadena que No Puede Arriesgar la Temporada con un Proveedor Nuevo</div>
+          </div>
+          <span class="segment-badge">Empresas y cadenas</span>
+          <div class="card-meta">Compradora o jefa de categoría de moda · 28 a 45 años · Oficinas centrales en las principales ciudades</div>
+          <p class="card-desc">Compra por temporada para grandes superficies, cadenas de ropa o distribuidoras de gran escala. No decide sola: calidad, logística y finanzas también revisan. Busca una fábrica con planta propia que entregue a tiempo y produzca igual a la muestra aprobada.</p>
+          <div class="card-footer">
+            <div class="dolores-count"><span class="dot-row"><span></span><span></span><span></span><span></span><span></span></span>5 dolores</div>
+            <button class="flip-btn" type="button">Ver dolores <span class="arrow">↻</span></button>
+          </div>
+        </div>
+        <div class="face face-back">
+          <div class="back-label">Dolores, objeciones y necesidades</div>
+          <div class="back-title">07 · La Compradora de Cadena que No Puede Arriesgar la Temporada con un Proveedor Nuevo</div>
+          <ul class="dolores-list">
+            <li>Un proveedor le incumplió la fecha de entrega en plena temporada y la sección quedó con espacios vacíos.</li>
+            <li>La producción llegó distinta a la muestra que aprobó: otro tono, otra tela u otras medidas, y tuvo que devolver el pedido.</li>
+            <li>Ha conocido talleres que dicen ser fábrica y subcontratan; en la visita no pueden mostrar dónde ni cómo se confeccionó.</li>
+            <li>Antes de crear a un proveedor nuevo necesita los documentos completos: factura electrónica, códigos de barras, etiquetas reglamentarias y ficha técnica de cada referencia.</li>
+            <li>Le preocupa que un proveedor acepte un pedido grande sin la capacidad para cumplirlo y entregue a medias o con retraso.</li>
+          </ul>
+          <button class="flip-btn back-btn" type="button">← Volver</button>
+        </div>
+      </div>
+    </article>
+
   </div>
 
   <section class="observaciones">
     <h2>Observaciones estratégicas</h2>
-    <p class="sub">Validación del enfoque: los seis perfiles son compradoras del negocio (mujeres que compran para revender y tiendas que reponen) o personas que pueden pasar a serlo con un paquete de 6 surtidas. Ninguno es la consumidora final, que aparece en el contenido como "la clienta de la semana". Todos comparten un mismo miedo, comprar a ciegas, pero cada uno lo vive distinto: la que empieza teme perder la plata, la que ya vende teme que no le cumplan, la tienda teme quedarse sin stock y la que llegó por la prenda solo quiere verse bien. HYF DISTRIBUIDORA responde por todo lo que pasa hasta la entrega; la venta es de ella.</p>
+    <p class="sub">Validación del enfoque: los siete perfiles son compradoras del negocio (mujeres que compran para revender, tiendas que reponen y empresas que compran por volumen) o personas que pueden pasar a serlo con un paquete de 6 surtidas. Ninguno es la consumidora final, que aparece en el contenido como "la clienta de la semana". Todos comparten un mismo miedo, comprar a ciegas, pero cada uno lo vive distinto: la que empieza teme perder la plata, la que ya vende teme que no le cumplan, la tienda teme quedarse sin stock, la que llegó por la prenda solo quiere verse bien y la compradora de empresa teme perder la temporada por un proveedor que falla. HYF DISTRIBUIDORA responde por todo lo que pasa hasta la entrega; la venta es de quien compra.</p>
 
     <div class="priority-grid">
       <div class="priority-card">
@@ -795,12 +832,18 @@
         <h3>04 · La que Vende por Estados de WhatsApp y Necesita Algo Nuevo Cada Semana</h3>
         <p>Es la que más repone. Las referencias nuevas de cada semana son una novedad real para ella, y la guía de tallas y la prueba de tela le quitan el miedo a quedar mal con su clientela.</p>
       </div>
+      <div class="priority-card">
+        <div class="p-rank">Prioridad 04</div>
+        <h3>07 · La Compradora de Cadena que No Puede Arriesgar la Temporada con un Proveedor Nuevo</h3>
+        <p>Compra en volumen la ropa de HYF DISTRIBUIDORA, con su marca, para venderla en sus tiendas. Se busca desde ya por LinkedIn y correo, en paralelo con las revendedoras. La convence lo comprobable: planta propia, muestra igual a la producción y entregas en la fecha acordada.</p>
+      </div>
     </div>
 
     <p class="obs-text">
-      <strong>Posicionamiento recomendado:</strong> HYF DISTRIBUIDORA es la fábrica familiar de Medellín que te deja ver todo antes de pagar y te entrega lo que viste. El eje es la Compra a la vista: la tela en cámara, el paquete con lo que pagas por él, el dato real de lo que más se repuso cada semana y la foto de tu paquete armado antes del despacho. No compite en "quién es más fábrica" ni en promesas: se respalda en 15 años de confección propia y en pruebas que cualquier revendedora puede comprobar.<br><br>
-      <strong>Mensaje eje:</strong> para las que empiezan (01 y 02), "Antes de pagar ves la tela, el paquete y el precio", con la familia en cámara y la invitación a empezar con 6 surtidas. Para las que ya venden (03 y 04), "Lo que ves es lo que te llega": cumplimiento, precio igual en el anuncio y en el WhatsApp, referencias nuevas de la semana y "esto es lo que más se repuso; tú decides tu surtido". Para la tienda que repone (05), trayectoria, stock real y condiciones por escrito, siempre de usted si ella así lo prefiere. Para la que llegó por la prenda (06), claridad sobre el paquete surtido: "arma tus 6 a tu gusto".<br><br>
-      <strong>Captación:</strong> cada pieza lleva a una conversación de WhatsApp con una persona de la familia que se presenta con su nombre, responde rápido en el horario de atención y dice desde el primer mensaje lo que pagas por el paquete. Sin urgencias inventadas: la única prisa válida es una referencia nueva de la semana o el stock real del día. La promesa termina en la entrega.
+      <strong>Posicionamiento:</strong> HYF DISTRIBUIDORA es la fábrica familiar de Medellín que te deja ver todo antes de pagar y te entrega lo que viste. El eje es la Compra a la vista: la tela en cámara, el paquete con lo que pagas por él, el dato real de lo que más se repuso cada semana y la foto de tu paquete armado antes del despacho. No compite en "quién es más fábrica" ni en promesas: se respalda en 15 años de confección propia y en pruebas que cualquier revendedora puede comprobar.<br><br>
+      <strong>Mensaje eje:</strong> para las que empiezan (01 y 02), "Antes de pagar ves la tela, el paquete y el precio", con la familia en cámara y la invitación a empezar con 6 surtidas. Para las que ya venden (03 y 04), "Lo que ves es lo que te llega": cumplimiento, precio igual en el anuncio y en el WhatsApp, referencias nuevas de la semana y "esto es lo que más se repuso; tú decides tu surtido". Para la tienda que repone (05), trayectoria, stock real y condiciones por escrito, siempre de usted si ella así lo prefiere. Para la que llegó por la prenda (06), claridad sobre el paquete surtido: "arma tus 6 a tu gusto". Para las empresas y cadenas (07), "Lo que aprueba en la muestra es lo que le llega, en la fecha acordada": planta propia y familiar, la fábrica abierta a su visita, muestra y ficha antes de la orden, y cumplimiento en cada entrega.<br><br>
+      <strong>Captación:</strong> cada pieza lleva a una conversación de WhatsApp con una persona de la familia que se presenta con su nombre, responde rápido en el horario de atención y dice desde el primer mensaje lo que pagas por el paquete. Sin urgencias inventadas: la única prisa válida es una referencia nueva de la semana o el stock real del día. La promesa termina en la entrega.<br><br>
+      <strong>Empresas y cadenas:</strong> el perfil 07 es un frente activo desde ya, en paralelo con las revendedoras. Grandes superficies, almacenes de cadena y distribuidoras de gran escala compran la ropa de HYF DISTRIBUIDORA terminada y con su marca para venderla en sus tiendas: una marca de fábrica nacional con 15 años de confección propia. Su camino no pasa por los anuncios: se construye con una presentación de proveedor, contacto directo por LinkedIn y correo, visita a las ferias del sector en Medellín, la visita a la planta y un primer pedido piloto. Cada pedido empresarial se acepta con una capacidad de producción que no le quite espacio a las revendedoras que ya compran.
     </p>
   </section>
 </main>
